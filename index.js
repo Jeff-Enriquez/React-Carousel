@@ -122,7 +122,7 @@ const Carousel = ({ paths, arrows, dots, delay }) => {
     <div className={styles.container}>
       {isArrows && 
         <button id={styles.left} onClick={leftArrow}>
-          <img className={styles.arrow} src='./images/left-arrow.svg' alt='left arrow'/>
+          <img className={styles.arrow} src='./left-arrow.svg' alt='left arrow'/>
         </button>
       }
       {images}
@@ -133,7 +133,7 @@ const Carousel = ({ paths, arrows, dots, delay }) => {
       }
       {isArrows && 
         <button id={styles.right} onClick={rightArrow}>
-          <img className={styles.arrow} src='./images/left-arrow.svg' alt='right arrow'/>
+          <img className={styles.arrow} src='./left-arrow.svg' alt='right arrow'/>
         </button>
       }
     </div>
