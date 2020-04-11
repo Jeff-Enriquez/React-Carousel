@@ -1,4 +1,3 @@
-<img src='./carousel.gif'/>
 <h1>Getting Started</h1>
 <p>This is an carousel for React. It is a component that can be copied and pasted into your project. There are four different props that can be passed into the carousel: images, arrows, dots, and delay.</p>
 <b>Before you get started</b>
