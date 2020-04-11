@@ -1,5 +1,5 @@
 <h1>Getting Started</h1>
-<p>This is an image carousel for React. There are four different props that can be passed paths, arrows, dots, and delay.</p>
+<p>This is an image carousel for React. It is a component that can be copied and pasted into your project. There are four different props that can be passed into the carousel: paths, arrows, dots, and delay.</p>
 <ul>
   <li><a href='#paths'>paths</a> <span style='color:red'>- required</span></li>
   <li><a href='#delay'>delay</a></li>
