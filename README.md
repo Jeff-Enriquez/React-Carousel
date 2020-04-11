@@ -1,7 +1,7 @@
 <h1>Getting Started</h1>
 <p>This is an carousel for React. It is a component that can be copied and pasted into your project. There are four different props that can be passed into the carousel: images, arrows, dots, and delay.</p>
 <b>Before you get started</b>
-<p>Be sure to place the 'left-arrow.svg' in your './public/images' folder. For more information <a href='#style-arrows'>click here</a></p>
+<p>Be sure to place the 'left-arrow.svg' in your './public/images' folder.</p>
 <ul>
   <li><a href='#images'>Set Images</a> <span style='color:red'>- required</span></li>
   <li><a href='#delay'>Set Delay</a></li>
