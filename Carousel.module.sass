@@ -3,13 +3,11 @@
   width: 100%
   height: 100%
 
-.arrow
-  display: block
-  width: 2vw
-
 .dotsContainer
   position: absolute
-  z-index: 1
+  width: fit-content
+  height: fit-content
+  z-index: 0
   bottom: 0
   right: 50%
   transform: translate(50%, 0)
@@ -26,13 +24,17 @@
 .dots:hover
   background-color: #FFFFFF
 
-#highlight
+#highlightDot
   background-color: #FFFFFF
 
-#left, #right
+.arrows
+  display: block
+  width: 2vw
+
+#leftArrow, #rightArrow
   position: absolute
   top: 50%
-  z-index: 1
+  z-index: 0
   padding: .7vw
   background-color: #FFFFFF50
   border: none
@@ -40,11 +42,11 @@
   border-radius: 50%
   margin: .8vw
 
-#left
+#leftArrow
   left: 0
   transform: translate(0, -50%)
 
-#right
+#rightArrow
   right: 0
   transform: translate(0, -50%) scaleX(-1)
 
@@ -55,13 +57,13 @@
   width: 100%
   height: 100%
   object-fit: cover
-  z-index: -2
+  z-index: -900
 
 .previmg
-  z-index: -1
+  z-index: -800
 
 .fadein
-  z-index: 0
+  z-index: -700
   animation: fadein 1.5s
 
 @keyframes fadein 

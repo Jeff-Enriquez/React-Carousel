@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.dotsContainer {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  z-index: 0;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 0);
+  margin-bottom: 1vw;
+}
+
+.dots {
+  margin: .5vw;
+  border-radius: 50%;
+  padding: .7vw;
+  border: none;
+  outline: none;
+  background-color: #FFFFFF99;
+}
+
+.dots:hover {
+  background-color: #FFFFFF;
+}
+
+#highlightDot {
+  background-color: #FFFFFF;
+}
+
+.arrows {
+  display: block;
+  width: 2vw;
+}
+
+#leftArrow, #rightArrow {
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+  padding: .7vw;
+  background-color: #FFFFFF50;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin: .8vw;
+}
+
+#leftArrow {
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+#rightArrow {
+  right: 0;
+  transform: translate(0, -50%) scaleX(-1);
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -900;
+}
+
+.previmg {
+  z-index: -800;
+}
+
+.fadein {
+  z-index: -700;
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
